@@ -489,7 +489,11 @@ open class BaseNotificationBanner: UIView {
             isDisplaying = true
         }
     }
-
+    
+    public func resetStartFrame(frame: CGRect) {
+        self.bannerPositionFrame.startFrame = frame
+    }
+    
     /**
         Resets a notification banner's elapsed duration to zero.
     */

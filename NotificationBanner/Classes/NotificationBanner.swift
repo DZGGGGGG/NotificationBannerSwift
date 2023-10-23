@@ -169,6 +169,7 @@ open class NotificationBanner: BaseNotificationBanner {
             make.edges.equalTo(contentView)
         }
         
+        spacerView.isHidden = true
         spacerView.backgroundColor = customView.backgroundColor
     }
     
