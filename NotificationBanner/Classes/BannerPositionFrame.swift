@@ -26,7 +26,7 @@ public enum BannerPosition: Int {
 
 class BannerPositionFrame {
     
-    private(set) var startFrame: CGRect = .zero
+    var startFrame: CGRect = .zero
     private(set) var endFrame: CGRect = .zero
 
     init(
